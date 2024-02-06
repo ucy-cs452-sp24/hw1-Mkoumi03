@@ -1,0 +1,25 @@
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=1 time=176.8 us (warmup)
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=2 time=208.6 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=3 time=191.0 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=4 time=201.6 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=5 time=210.9 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=6 time=213.4 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=7 time=193.2 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=8 time=183.0 us (fast)
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=9 time=185.3 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=10 time=210.1 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=11 time=648.7 us (slow)
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=12 time=161.2 us (fast)
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=13 time=197.2 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=14 time=193.7 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=15 time=164.8 us (fast)
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=16 time=168.0 us (fast)
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=17 time=119.6 us (fast)
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=18 time=185.7 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=19 time=176.3 us
+4 KiB <<< /tmp/ (ext3 /dev/sda3 62.4 GiB): request=20 time=186.8 us
+
+--- /tmp/ (ext3 /dev/sda3 62.4 GiB) ioping statistics ---
+19 requests completed in 4.00 ms, 76 KiB read, 4.75 k iops, 18.6 MiB/s
+generated 20 requests in 19.0 s, 80 KiB, 1 iops, 4.21 KiB/s
+min/avg/max/mdev = 119.6 us / 210.5 us / 648.7 us / 105.5 us
